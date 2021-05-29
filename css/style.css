@@ -101,6 +101,10 @@ html {
   transition: 0.5s;
   font-size: 1.8rem;
 }
+.forms__input-field:focus-within > .icon,
+.forms__input-field:hover > .icon{
+  color: var(--color-signup);
+} 
 /* .forms__input--password */
 
 .btn {
