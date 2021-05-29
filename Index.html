@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <!-- <link rel="stylesheet" href="/css/prueb.css"> -->
+  <title>Login</title>
+</head>
+
+<body>
+  <main class="container">
+
+    <div class="forms">
+      <div class="signin-signup">
+        <form action="#" class="forms__form forms__form--signin">
+          <h2 class="forms__title">Iniciar sesion</h2>
+          <div class="forms__input-field">
+            <i class="fas fa-user icon"></i>
+            <input class="forms__input" type="text" placeholder="Usuario" />
+          </div>
+          <div class="forms__input-field">
+            <i class="fas fa-lock icon"></i>
+            <input class="forms__input forms__input--password" type="password" placeholder="Contraseña" />
+          </div>
+          <input type="submit" value="Ingresar" class="forms__btn forms__btn-signin" />
+        </form>
+
+        <form action="#" class="forms__form forms__form--signup">
+          <h2 class="forms__title">Registrate</h2>
+          <div class="forms__input-field">
+            <i class="fas fa-user icon"></i>
+            <input type="text" placeholder="Nombre de usuario" class="forms__input" />
+          </div>
+          <div class="forms__input-field">
+            <i class="fas fa-envelope icon"></i>
+            <input type="email" placeholder="Correo" class="forms__input" />
+          </div>
+          <div class="forms__input-field">
+            <i class="fas fa-lock icon"></i>
+            <input type="password" placeholder="Contraseña" class="forms__input forms__input--password" />
+          </div>
+          <div class="forms__input-field">
+            <i class="fas fa-lock icon"></i>
+            <input type="password" placeholder="Confirmar Contraseña" class="forms__input forms__input--password" />
+          </div>
+          <input type="submit" class="forms__btn forms__btn-signup" value="Registrar" />
+        </form>
+      </div>
+    </div>
+
+    <div class="panels">
+      <div class="panels__panel panels__panel--left">
+        <div class="panels__content">
+          <h3 class="panels__title">¿Eres nuevo aquí?</h3>
+          <p class="panels__text">
+            Si ya eres uno de nosotros, 
+            ingresa con tu cuenta existente.
+          </p>
+          <button class="btn btn--panel" id="signup-btn">Registrate</button>
+        </div>
+        <img src="img/Hiking3.svg" class="panels__image" alt="woman hiking" />
+      </div>
+
+      <div class="panels__panel panels__panel--right">
+        <div class="panels__content">
+          <h3 class="panels__title">¿Ya tienes una cuenta?</h3>
+          <p class="panels__text">
+            Si ya eres uno de nosotros, ingresa con tu cuenta existente.
+          </p>
+          <button class="btn btn--panel" id="signin-btn">
+            Iniciar sesión
+          </button>
+        </div>
+        <img src="img/researching3.svg" class="panels__image" alt="woman using computer" />
+      </div>
+
+
+    </div>
+  </main>
+  <script type="" src="js/scripts.js"></script>
+</body>
+
+</html>
