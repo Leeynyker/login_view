@@ -105,8 +105,6 @@ html {
 .forms__input-field:hover > .icon{
   color: var(--color-signup);
 } 
-/* .forms__input--password */
-
 .btn {
   width: 150px;
   border: none;
@@ -227,7 +225,7 @@ html {
   transform: translateX(800px);
 }
 
-/* Animate */
+/* ----------- */
 .container.sign-up-mode:before {
   transform: translate(100%, -50%);
   right: 52%;
@@ -264,7 +262,7 @@ html {
 .container.sign-up-mode .panels__panel--right {
   pointer-events: all;
 }
-
+/* ---------- */
 
 @media (max-width: 870px) {
   .container {
